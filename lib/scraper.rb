@@ -16,7 +16,7 @@ class Scraper
 
   def get_courses
     html.each do |course|
-      course.css(".post").first.css("h2")
+      @title = course.css(".post").first.css("h2")
   end
 
   def make_courses
