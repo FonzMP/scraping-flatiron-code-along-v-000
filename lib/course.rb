@@ -15,4 +15,7 @@ class Course
   #   @@all
   # end
 
+  def self.all
+    @@all = []
+
 end
