@@ -18,6 +18,7 @@ class Scraper
     html.each do |course|
       @title = course.css(".post").first.css("h2")
       @schedule = course.css(".post").first.css(".date")
+      @description = course.css(".post").first.css("p")
   end
 
   def make_courses
