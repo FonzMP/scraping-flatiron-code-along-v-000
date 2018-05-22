@@ -10,7 +10,7 @@ class Course
   end
 
   def all
-    all
+    @@all
   end
 
 end
