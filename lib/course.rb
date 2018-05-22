@@ -6,6 +6,7 @@ class Course
     @title = title
     @schedule = schedule
     @description = description
+    @@all << self
   end
 
 end
